@@ -339,7 +339,7 @@ export const CLIENTS = [
     num: '04',
     name: 'APEX',
     service: 'Frontend Development',
-    year: '2024',
+    year: '2025',
     description: 'Premium automotive showcase with scroll-driven motion',
     link: '#work-apex'
   },
