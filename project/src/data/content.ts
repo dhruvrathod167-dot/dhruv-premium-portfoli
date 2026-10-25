@@ -347,8 +347,8 @@ export const CLIENTS = [
     num: '05',
     name: 'SALON',
     service: 'Web Development',
-    year: '2024',
-    description: 'Modern business website with responsive design',
+    year: '2025',
+    description: 'Modern salon business website with responsive design',
     link: '#work-salon'
   }
 ];
