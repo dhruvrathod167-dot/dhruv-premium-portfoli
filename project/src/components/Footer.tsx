@@ -87,7 +87,7 @@ export function Footer() {
 
         <div className="mt-16 flex flex-col gap-3 border-t pt-8 md:flex-row md:items-center md:justify-between" style={{ borderColor: 'var(--border)' }}>
           <p className="font-mono text-[11px] uppercase tracking-micro" style={{ color: 'var(--text-muted)' }}>
-            © 2024 {PROFILE.name}
+            @2026
           </p>
           <p className="font-mono text-[11px] uppercase tracking-micro" style={{ color: 'var(--text-muted)' }}>
             Built with Python, React & modern web technologies
