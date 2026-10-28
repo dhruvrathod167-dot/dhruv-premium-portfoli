@@ -29,64 +29,37 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    id: 'archaus',
+    id: 'kairn',
     index: '01',
-    name: 'ARCHAUS',
-    tagline: 'Architecture Studio Website',
-    category: 'Web / Full Stack',
-    year: '2024',
-    role: 'Full Stack Developer',
-    stack: ['Django', 'DRF', 'React', 'GSAP', 'Lenis', 'MySQL'],
+    name: 'KAIRN',
+    tagline: 'Architecture, Interiors & Materiality',
+    category: 'Client Project',
+    year: '2026',
+    role: 'Full Stack Development',
+    stack: ['Django', 'React', 'GSAP', 'Lenis'],
     description:
-      'A digital presence for an architecture studio, built around editorial layouts, cinematic motion and a modular Django backend.',
+      'A refined digital experience designed around architecture, interiors, materiality, atmosphere and visual storytelling.',
     image:
-      'https://images.pexels.com/photos/18592583/pexels-photo-18592583.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      '/Hello.png',
     accent: '#C9A97A',
-    challenge:
-      'Create a sophisticated digital presence for an architecture-focused brand while maintaining performance and intuitive navigation across a large project archive.',
-    approach:
-      'A clean visual hierarchy with cinematic motion, paired with a modular Django architecture and a headless React frontend for full control over the experience.',
-    solution:
-      'Built a headless setup with Django REST Framework powering a React frontend. Projects are managed through a custom admin with rich media handling, and the frontend uses GSAP and Lenis for editorial scrolling.',
-    features: [
-      'Editorial project archive with filtering',
-      'Custom Django admin for content management',
-      'Cinematic scroll-driven page transitions',
-      'Responsive image pipeline with lazy loading',
-      'Contact workflow with inquiry management',
-    ],
-    outcome:
-      'A polished, fast studio site that gives the brand a premium online presence and makes project management straightforward from the admin.',
+    external: true,
+    link: 'https://luxury-architecture-studio.onrender.com/',
   },
   {
-    id: 'velora',
+    id: 'luxe-atelier',
     index: '02',
-    name: 'VELORA',
-    tagline: 'Modern E-Commerce Platform',
-    category: 'E-Commerce / Full Stack',
-    year: '2024',
-    role: 'Full Stack Developer',
-    stack: ['Django', 'React', 'REST API', 'MySQL'],
+    name: 'LUXE ATELIER',
+    tagline: 'Luxury Fashion',
+    category: 'Client Project',
+    year: '2026',
+    role: 'E-Commerce Development',
+    stack: ['Django', 'React', 'REST API'],
     description:
-      'A modern e-commerce platform designed around a clean shopping experience, product discovery and a scalable backend architecture.',
-    image:
-      'https://images.pexels.com/photos/17938771/pexels-photo-17938771.jpeg?auto=compress&cs=tinysrgb&w=1600',
+      'A premium luxury fashion e-commerce platform with sophisticated brand presentation and seamless shopping experience.',
+    image: '/Luxury Fashion.png',
     accent: '#E8DCC8',
-    challenge:
-      'Build a complete e-commerce experience with product discovery, authentication, cart and admin management without compromising on interface quality.',
-    approach:
-      'A Django REST backend handling catalog, orders and auth, paired with a React frontend focused on a smooth, minimal shopping flow.',
-    solution:
-      'Implemented product catalog with search and filtering, JWT authentication, cart and checkout flow, and an admin dashboard for product and order management — all behind a clean, responsive interface.',
-    features: [
-      'Product catalog with search and category filtering',
-      'JWT authentication and user accounts',
-      'Cart and checkout flow',
-      'Admin dashboard for products and orders',
-      'Responsive storefront optimized for mobile',
-    ],
-    outcome:
-      'A complete, working e-commerce platform with a clean shopping experience and a backend that scales with the catalog.',
+    external: true,
+    link: 'https://luxury-brand-showcase-good.onrender.com/',
   },
   {
     id: 'ai-app',
@@ -313,11 +286,27 @@ export const AI_CAPS = [
 export const CLIENTS = [
   {
     num: '01',
-    name: 'ARCHAUS',
-    service: 'Full Stack Development',
-    year: '2024',
-    description: 'Architecture studio website with editorial layouts and cinematic motion',
-    link: '#work-archaus'
+    name: 'KAIRN',
+    service: 'Architecture / Interiors / Materiality',
+    year: '2026',
+    description: 'A refined digital experience designed around architecture, interiors, materiality, atmosphere and visual storytelling',
+    link: 'https://luxury-architecture-studio.onrender.com/',
+    external: true,
+    category: 'Client Project',
+    role: 'Full Stack Development',
+    challenge: 'Create a sophisticated digital presence for an architecture-focused brand while maintaining performance and intuitive navigation.',
+    approach: 'A clean visual hierarchy with cinematic motion, paired with a modular Django architecture and a headless React frontend for full control over the experience.',
+    solution: 'Built a headless setup with Django REST Framework powering a React frontend. Projects are managed through a custom admin with rich media handling, and the frontend uses GSAP and Lenis for editorial scrolling.',
+    features: [
+      'Editorial project archive with filtering',
+      'Custom Django admin for content management',
+      'Cinematic scroll-driven page transitions',
+      'Responsive image pipeline with lazy loading',
+      'Contact workflow with inquiry management',
+    ],
+    outcome: 'A polished, fast studio site that gives the brand a premium online presence and makes project management straightforward from the admin.',
+    feedback: 'Client feedback will be added here.',
+    collaboration: 'Premium architecture studio collaboration focused on digital excellence and brand representation.'
   },
   {
     num: '02',
