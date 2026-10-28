@@ -4,7 +4,9 @@ type RevealProps = {
   children: React.ReactNode;
   className?: string;
   delay?: number;
-  y?: numbePS C:\Users\rathod\Downloads\dhruv. dev> git commit -m "Initial premium portfolio"                                                 
+  y?: number;
+  once?: boolean;
+}; 
 
 export function Reveal({ children, className = '', delay = 0, y = 24, once = true }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null);
